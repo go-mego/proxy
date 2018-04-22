@@ -75,7 +75,7 @@ func main() {
 
 ## 負載平衡
 
-反向代理同時也能與 Mego 的負載平衡套件一同使用，還請參閱 [Service Discovery](https://github.com/go-mego/sd) 套件。
+反向代理同時也能與 Mego 的負載平衡套件一同使用，還請參閱 [Load Balancer](https://github.com/go-mego/lb) 套件。
 
 ```go
 package main
@@ -83,7 +83,7 @@ package main
 import (
 	"github.com/go-mego/mego"
 	"github.com/go-mego/rproxy"
-	"github.com/go-mego/sd/lb"
+	"github.com/go-mego/lb"
 )
 
 func main() {
